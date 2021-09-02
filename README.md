@@ -1,24 +1,22 @@
 # redis-client-desktop
 
-## Project setup
+## 运行前提条件
+ - nodejs 14版本
+ - vue2
+ - electron-builder
+
+---
+
+## 项目启动
 ```
-npm install
+npm start
 ```
 
-### Compiles and hot-reloads for development
+## 打包项目
 ```
-npm run serve
+npm run electron:build
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+## 创建vue-electron项目步骤
+- vue create <app_name>
+- vue add electron-builder
